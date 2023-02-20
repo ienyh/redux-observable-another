@@ -1,0 +1,34 @@
+{
+  "name": "redux-observable-another",
+  "author": "chenyh",
+  "version": "0.0.1",
+  "main": "dist/redux-observable-another.mjs",
+  "module": "dist/redux-observable-another.umd.js",
+  "keywords": ["redux", "redux-observable"],
+  "license": "MIT",
+  "homepage": "https://github.com/ienyh/redux-observable-another#readme",
+  "description": "",
+    "files": ["dist/", "src/"],
+    "exports": {
+      ".": {
+        "import": "./dist/redux-observable-another.mjs",
+        "require": "./dist/redux-observable-another.umd.js"
+      }
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ienyh/redux-observable-another.git"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "redux": "^4.2.1",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.3"
+  }
+}
