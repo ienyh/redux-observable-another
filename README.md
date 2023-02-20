@@ -5,6 +5,8 @@
 ## code
 
 ```ts
+const streamerMiddleware = createStreamMiddleware()
+
 const store = createStore(reducers, applyMiddleware(streamerMiddleware))
 
 streamerMiddleware.run(
